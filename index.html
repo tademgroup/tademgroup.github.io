@@ -1,53 +1,126 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Tademgroup</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="tools/style.css" rel="stylesheet" type="text/css" />
-<link href="tools/960.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-	.logo{
-		margin-top: 75px;
-		width: 100%
-	}
-</style>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/Clarendon_LT_Std_700.font.js"></script>
-<script type="text/javascript">
-	Cufon.replace('h1,h3', {fontFamily: 'Clarendon LT Std', hover:true})
-</script>
+  <title>Tadem Group</title>
+  <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/dist/css/footer.css">
+  <style type="text/css">
+    .navbar-primary{
+      background: #337AB7 !important;
+      margin-bottom: 0px; 
+    }
+    .navbar-secondary{
+      background: white !important;
+      height: 94px;
+    }
+    .logo{
+      border-bottom-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+      margin-left: 81px!important;
+    }
+    .banners img{
+      margin-top: -80px;
+      width: 1366px;
+      height: 435px;
+    }
+
+    .pages-pills{
+      padding: 20px;
+      vertical-align: middle;
+      font-family: Palatino Linotype !important;
+      font-size: 17px !important;
+      font-style: normal;
+      font-weight: bold;
+      color: black !important;
+
+    }
+    .headers-middle{
+      text-align: center;
+      width: 100%;
+      font-size: 24px;
+      font-weight: bold;
+      color: black;
+      padding: 10px;
+    }
+    .text-desc{
+      font-size: 18px;
+      color: black;
+      line-height: 140%
+    }
+    footer{
+      margin-top: 30px;
+    }
+  </style>
 </head>
+
 <body>
-<div id="shim"></div>
-<div id="content">
-	<div class="logo_box"><h1>Tadem Group</h1></div>          
-	<div class="main_box">
-		<h2>We are coming very soon...!!!<br/><span>In the mean time connect with us with the information below</span></h2>
-		
-		<ul class="info">
-			<li>
-				<h3>M</h3>
-				<p>+91-9492925505<br/>+91-9515133546</p>
-			</li>
-			<li>
-				<h3>E</h3>
-				<p>contact@tademgroup.com</p>
-			</li>
-			<li>
-				<h3>A</h3>
-				<p>Plot No. 9/2, Ground Floor,
-					<br/>Survey No. 64, HUDA Techno Enclave,
-					<br/>Phase II, Madhapur,
-          <br/>Hyderabad - 500081
-					<br/>Telangana
-				</p>
-			</li>
+  <nav class="navbar navbar-default navbar-primary navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+      <ul class="nav navbar-nav">
+      </ul>
+    </div>
+  </nav>
+  <nav class="navbar navbar-default navbar-secondary">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img class="logo" src="static/dist/imgs/logo.jpg">
+      </div>
+      <div class="pages-pills">
+        <ul class="nav nav-pills nav-justified ">
+            <li class="active"><a href="/">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="banners">
+    <img src="static/dist/imgs/main_page_3.jpg">
+  </div>
+  <div class="row">
+    <p class="headers-middle">WELCOME TO TADEM GROUP</p>
+    <div class="col-md-10 col-md-offset-1 text-desc">
+      <p>Over the last several years, Tadem Group has evolved as a prominent engineering and construction services company. We offer end-to-end customized solutions and services with single source responsibility for executing small, medium and large sized projects across all types. Equipped with processes, knowledge and able people, we has proven our capability for executing all types of projects involving comprehensive engineering solutions and construction services that include design, procurement, supply, installation, testing and commissioning etc.</p>
 
-		</ul>
-	</div>
-</div>
-
+      <p>We has undertaken some strategic measures to address our concerns through innovation and IT-enabling. Robust IT infrastructure will ensure greater business predictability and assurance. Also, it will warrant us a systematic governance structure and help us optimize project costs and time.</p>
+      <p>We understand preferences of our customers in terms of contracting and pricing models. Thereby, our solutions and services are customized so as to serve our customers’ requirements in the most appropriate manner.</p>
+      <p>Going ahead, we plan to evolve into a globally acclaimed construction company with footprints across various geographies, by staying focused on our core competency of providing only the best and reliable solutions and services to our customers.</p>
+    </div>
+  </div>
+  <footer class="footer-bs">
+    <div class="row">
+      <div class="col-md-8 footer-brand animated fadeInLeft">
+            <ul class="pages"><h2>Tadem Reliable Services LLP</h2>
+                <p>Plot No.9/2, Ground Floor, Sy. No.64,</p>
+                <p>HUDA Techno Enclave, Phase - II, Madhapur,</p>
+                <p>Hyderabad - 500081, Telangana, India</p>
+            </ul>
+        </div>
+      <div class="col-md-4 footer-nav animated fadeInUp">
+          <div class="col-md-6">
+            <ul class="pages">
+                <li><a href="#">+91-94929 25505 </a></li>
+                <li><a href="#">+91-95151 33546      </a></li>
+                <li><a href="#">contact@tademgroup.com  </a></li>
+                <li><a href="#">sales@tademgroup.com</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 hidden">
+            <ul class="list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>  
+  </footer>
+  <script type="text/javascript" src="static/vendor/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
