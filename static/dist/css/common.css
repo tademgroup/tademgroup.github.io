@@ -66,3 +66,7 @@ footer{
     height: 25px;
     margin-left: -30px;
 }
+.navbar-right{
+  color: white;
+  font-size: 18px;
+}
