@@ -1,3 +1,7 @@
+.navbar-brand{
+  color: white !important;
+  font-size: 24px;
+}
 .para-style{
   text-align: justify;
 }
@@ -56,4 +60,9 @@ footer{
 }
 .google-form-contact{
   height: 900px;
+}
+.social_icons {
+    width: 25px;
+    height: 25px;
+    margin-left: -30px;
 }
