@@ -1,11 +1,11 @@
 body{
   font-family: 'Muli', sans-serif;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#135683+0,1bb3ff+36,ffffff+36 */
-  background: #135683; /* Old browsers */
-  background: -moz-linear-gradient(top, #135683 0%, #1bb3ff 31%, #ffffff 31%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #135683 0%,#1bb3ff 31%,#ffffff 31%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #135683 0%,#1bb3ff 31%,#ffffff 31%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#135683', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: url(../imgs/body-bg.png) repeat-x 0 0 #ffffff;
+  /*background: #135683;
+  background: -moz-linear-gradient(top, #135683 0%, #1bb3ff 31%, #ffffff 31%);
+  background: -webkit-linear-gradient(top, #135683 0%,#1bb3ff 31%,#ffffff 31%);
+  background: linear-gradient(to bottom, #135683 0%,#1bb3ff 31%,#ffffff 31%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#135683', endColorstr='#ffffff',GradientType=0 );*/
 }
 img{
   max-width: 100%;
@@ -306,9 +306,9 @@ footer{
 .freebirdHeaderMast{
   background-color: #fff;
 }
-.banners.banners-contact img{
+/*.banners.banners-contact img{
   height: 480px;
 }
 .banners.banners-careers img{
   height: 380px;
-}
+}*/
