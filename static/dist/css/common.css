@@ -312,3 +312,11 @@ footer{
 .banners.banners-careers img{
   height: 380px;
 }*/
+.send{
+  width: 100px;
+  font-size: 16px;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
