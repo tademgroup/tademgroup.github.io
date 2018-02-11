@@ -13,10 +13,10 @@
     <nav class="navbar navbar-default navbar-primary navbar-static-top">
       <div class="container">
         <div class="col-xs-12 navbar-header">
-          <a class="col-md-5 col-xs-12 navbar-brand" href="#">Tadem Reliable Services</a>
+          <a class="col-md-5 col-xs-12 navbar-brand" href="index.html">Tadem Reliable Services</a>
           <ul class="nav navbar-nav">
-            <li class=""><a href="#"><span class="glyphicon glyphicon-phone navbar-contacts"></span> <span class="navbar-contacts">+91-94929 25505</span> </a></li>
-            <li class=""><a href="#"><span class="glyphicon glyphicon-envelope navbar-contacts"></span> <span class="navbar-contacts"> contact@tademgroup.com</span> </a></li>
+            <li class=""><a href="javascript: void(0);"><span class="glyphicon glyphicon-phone navbar-contacts"></span> <span class="navbar-contacts">+91-94929 25505</span> </a></li>
+            <li class=""><a href="javascript: void(0);"><span class="glyphicon glyphicon-envelope navbar-contacts"></span> <span class="navbar-contacts"> contact@tademgroup.com</span> </a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://www.linkedin.com/company/13453241/" target="_blank"><img class="social_icons" src="static/dist/imgs/linkedin.png"></a></li>
@@ -37,7 +37,7 @@
               <li><a href="about.html">ABOUT US</a></li>
               <li><a href="services.html">SERVICES</a></li>
               <li><a href="careers.html">CAREERS</a></li>
-              <li class="active"><a href="#">CONTACT US</a></li>
+              <li class="active"><a href="javascript: void(0);">CONTACT US</a></li>
           </ul>
         </div>
       </div>
@@ -79,7 +79,7 @@
   <footer class="pull-left col-xs-12 footer-bs">
     <div class="container">
       <div class="col-md-8 footer-brand animated fadeInLeft">
-        <h1>CONTACT US ON:</h1>
+        <h1>CONTACT US:</h1>
         <ul class="pages"><h2>Tadem Reliable Services LLP</h2>
             <p>Plot No.9/2, Ground Floor, Sy. No.64,</p>
             <p>HUDA Techno Enclave, Phase - II, Madhapur,</p>
@@ -89,26 +89,30 @@
       <div class="col-md-4 footer-nav animated fadeInUp">
         <div class="col-md-6">
           <ul class="pages">
-            <li><a href="#">+91-94929 25505 </a></li>
-            <li><a href="#">+91-99496 74182 </a></li>
-            <li><a href="#">contact@tademgroup.com  </a></li>
-            <li><a href="#">sales@tademgroup.com</a></li>
+            <li><a href="javascript: void(0);">+91-94929 25505 </a></li>
+            <li><a href="javascript: void(0);">+91-99496 74182 </a></li>
+            <li><a href="javascript: void(0);">contact@tademgroup.com  </a></li>
+            <li><a href="javascript: void(0);">sales@tademgroup.com</a></li>
           </ul>
         </div>
         <div class="col-md-6 hidden">
           <ul class="list">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">Terms & Condition</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="javascript: void(0);">About Us</a></li>
+            <li><a href="javascript: void(0);">Contacts</a></li>
+            <li><a href="javascript: void(0);">Terms & Condition</a></li>
+            <li><a href="javascript: void(0);">Privacy Policy</a></li>
           </ul>
         </div>
       </div>
       <!-- <div class="col-xs-12 padd-0 desc">Disclaimer: This website is a conceptual presentation and makes no warranty of any kind. In no event Tadem Reliable Services LLP will be liable to any penalty for direct, indirect, incidental, special, exemplary, consequential or other damages with regard to any liability arising out of any content.</div> -->
-      <div class="col-xs-12 padd-0 copy-right">Copyright © 2017 Tadem Reliable Services LLP. All Rights Reserved.</div>
+      <div class="col-xs-12 padd-0 copy-right">Copyright &copy; <span id="year"></span> Tadem Reliable Services LLP. All Rights Reserved.</div>
     </div>  
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="static/vendor/bootstrap/js/bootstrap.min.js"></script>  
+  <script type="text/javascript" src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    var d = new Date();
+    document.getElementById("year").innerHTML = d.getFullYear();
+  </script>
 </body>
 </html>
