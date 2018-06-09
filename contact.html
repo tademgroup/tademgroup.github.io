@@ -3,9 +3,10 @@
 <head>
   <title>Tadem Group</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Muli:200,300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="static/dist/css/footer.css">
-  <link rel="stylesheet" type="text/css" href="static/dist/css/common.css">
+  <link rel="stylesheet" href="static/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/dist/css/footer.css">
+  <link rel="stylesheet" href="static/dist/css/common.css">
+  <link rel="stylesheet" href="static/dist/css/responsive.css">
 </head>
 
 <body>
@@ -13,6 +14,12 @@
     <nav class="navbar navbar-default navbar-primary navbar-static-top">
       <div class="container">
         <div class="col-xs-12 navbar-header">
+          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="col-md-5 col-xs-12 navbar-brand" href="index.html">Tadem Reliable Services</a>
           <ul class="nav navbar-nav">
             <li class=""><a href="javascript: void(0);"><span class="glyphicon glyphicon-phone navbar-contacts"></span> <span class="navbar-contacts">+91-94929 25505</span> </a></li>
@@ -106,13 +113,18 @@
       </div>
       <!-- <div class="col-xs-12 padd-0 desc">Disclaimer: This website is a conceptual presentation and makes no warranty of any kind. In no event Tadem Reliable Services LLP will be liable to any penalty for direct, indirect, incidental, special, exemplary, consequential or other damages with regard to any liability arising out of any content.</div> -->
       <div class="col-xs-12 padd-0 copy-right">Copyright &copy; <span id="year"></span> Tadem Reliable Services LLP. All Rights Reserved.</div>
-    </div>  
+    </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript">
     var d = new Date();
     document.getElementById("year").innerHTML = d.getFullYear();
+    $(document).ready(function(){
+      $('.navbar-toggle').click(function(){
+        $('.pages-pills').toggle();
+      });
+    });
   </script>
 </body>
 </html>
