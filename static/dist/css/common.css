@@ -27,10 +27,12 @@ img{
 }
 .navbar-secondary{
   background: white !important;
-  /*height: 94px;*/
+  margin-top: 50px;
 }
 .navbar{
   margin-bottom: 0;
+  border-radius: 0;
+  border-width: 0;
 }
 .logo{
   border-bottom-right-radius: 1em;
@@ -51,7 +53,7 @@ img{
   vertical-align: middle;
   font-size: 16px !important;
   font-style: normal;
-  font-family: 'Lato';
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   color: black !important;
   float: right;
@@ -66,7 +68,7 @@ img{
   font-weight: 600;
   color: black;
   padding: 0 0 10px 0;
-  font-family: 'Lato';
+  font-family: "Lato", sans-serif;
   margin-top: 0;
 }
 .text-desc{
@@ -119,25 +121,22 @@ footer{
   font-weight: bold;
   width: 32.333%;
   vertical-align: top;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .bx-wrapper{
-  border: 0;
+  /* border: 0; */
   box-shadow: none;
-}
-.bx-wrapper{
   margin-bottom: 15px;
+  border-width: 0 10px 10px 10px;
+  border-style: solid;
+  border-color: #fff;
 }
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
   bottom: 8px;
 }
 .navbar-default{
   border-color: #fff;
-}
-.navbar{
-  border-radius: 0;
-  border-width: 0;
 }
 .navbar-static-top{
   position: fixed;
@@ -147,9 +146,6 @@ footer{
 /*  -webkit-box-shadow: 0 4px 4px -2px #333;
   -moz-box-shadow: 0 4px 4px -2px #333;
   box-shadow: 0 4px 4px -2px #333;*/
-}
-.navbar-secondary{
-  margin-top: 50px;
 }
 .welcome-info{
   /*font-family: 'Lato';*/
@@ -165,19 +161,18 @@ footer{
 .home-rht-content{
   width: 30%;
   float: left;
+  font-size: 14px;
 }
 /*.container {
     width: 1000px;
 }*/
+.list-item a{
+  display: block;
+  text-align: right;
+}
 .nav-pills>li>a{
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-}
-.bx-wrapper{
-  /*border: 10px solid #337ab7;*/
-  border-width: 0 10px 10px 10px;
-  border-style: solid;
-  border-color: #fff;
 }
 .special-info{
   padding: 0;
@@ -189,6 +184,13 @@ footer{
   list-style-type: none;
   padding: 0;
   float: left;
+}
+.list-item{
+  padding-left: 10px;
+  width: 65%;
+  float: left;
+  /*text-align: left;*/
+  padding-right: 15px;
 }
 .special-info ul li{
   width: 50%;
@@ -207,13 +209,6 @@ footer{
   height: 117px;
   border-radius: 10px;
 }
-.list-item{
-  padding-left: 10px;
-  width: 65%;
-  float: left;
-  /*text-align: left;*/
-  padding-right: 15px;
-}
 .list-item h5{
   font-size: 14px;
   font-weight: 700;
@@ -222,10 +217,6 @@ footer{
 }
 .list-item p{
   height: 69px;
-}
-.list-item a{
-  display: block;
-  text-align: right;
 }
 .pages{
   padding-left: 0;
@@ -266,13 +257,14 @@ footer{
   list-style: none;
   padding-left: 0;
 }
+.marque span{
+  display: table-cell;
+  vertical-align: middle;
+}
 .home-rht-content .bxslider span{
   font-weight: bold;
   display: block;
   text-align: right;
-}
-.home-rht-content{
-  font-size: 14px;
 }
 .tab-content{
   padding-bottom: 15px;
@@ -292,10 +284,6 @@ footer{
 .marque .offer{
   width: 100px;
   font-weight: bold;
-}
-.marque span{
-  display: table-cell;
-  vertical-align: middle;
 }
 .banners-careers, .banners-contact{
   border-width: 0 10px 10px 10px;
@@ -319,4 +307,7 @@ footer{
   height: 40px;
   border-radius: 5px;
   margin-bottom: 15px;
+}
+.js-tabcollapse-panel-heading{
+  display: block;
 }

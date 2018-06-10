@@ -14,7 +14,7 @@
 		<nav class="navbar navbar-default navbar-primary navbar-static-top">
 			<div class="container">
 				<div class="col-xs-12 navbar-header">
-					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" id="navbar-toggle" class="navbar-toggle">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -175,14 +175,19 @@
 			</div>
 			<!-- <div class="col-xs-12 padd-0 desc">Disclaimer: This website is a conceptual presentation and makes no warranty of any kind. In no event Tadem Reliable Services LLP will be liable to any penalty for direct, indirect, incidental, special, exemplary, consequential or other damages with regard to any liability arising out of any content.</div> -->
 			<div class="col-xs-12 padd-0 copy-right">Copyright &copy; <span id="year"></span> Tadem Reliable Services LLP. All Rights Reserved.</div>
-		</div>  
+		</div>
 	</footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="static/vendor/bootstrap/js/bootstrap.min.js"></script>  
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	 <script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script type="text/javascript">
 		$(document).ready(function(){
+			$('body').click(function(evt){
+       	if(evt.target.id != "navbar-toggle"){
+					$('.pages-pills').hide();
+				}
+			});
 			$('.navbar-toggle').click(function(){
 				$('.pages-pills').toggle();
 			});
