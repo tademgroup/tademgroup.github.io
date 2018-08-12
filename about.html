@@ -168,11 +168,11 @@
   <script type="text/javascript" src="static/vendor/bootstrap/js/bootstrap-tabcollapse.js"></script>
   <script>
     $(document).ready(function(){
-      $('body').click(function(evt){
-       	if(evt.target.id != "navbar-toggle"){
-					$('.pages-pills').hide();
-				}
-			});
+      // $('body').click(function(evt){
+      //  	if(evt.target.id != "navbar-toggle"){
+			// 		$('.pages-pills').hide();
+			// 	}
+			// });
       $('.nav.nav-tabs').tabCollapse();
       $('.navbar-toggle').click(function(){
 				$('.pages-pills').toggle();

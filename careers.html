@@ -122,11 +122,11 @@
     var d = new Date();
     document.getElementById("year").innerHTML = d.getFullYear();
     $(document).ready(function(){
-      $('body').click(function(evt){
-       	if(evt.target.id != "navbar-toggle"){
-					$('.pages-pills').hide();
-				}
-			});
+      // $('body').click(function(evt){
+      //  	if(evt.target.id != "navbar-toggle"){
+			// 		$('.pages-pills').hide();
+			// 	}
+			// });
       $('.navbar-toggle').click(function(){
         $('.pages-pills').toggle();
       });
