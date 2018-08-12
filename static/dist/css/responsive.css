@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1199px){
+@media (max-width: 1199px){
 	.special-info ul li img {
     width: 100%;
     height: 170px;
@@ -14,7 +14,7 @@
   	width: 100%;
   }
 }
-@media only screen and (max-width: 991px){
+@media (max-width: 991px){
   .container {
     width: 100%;
   }
@@ -59,7 +59,7 @@
   }
 }
 
-@media only screen and (max-width: 800px){
+@media (max-width: 800px){
   .nav.nav-pills.nav-justified li a{
     padding: 10px
   }
@@ -139,12 +139,12 @@
     width: 75px
   }
 }
-@media only screen and (max-width: 700px){
+@media (max-width: 700px){
   .navbar-brand{
     width: auto;
   }
 }
-@media only screen and (max-width: 641px){
+@media (max-width: 641px){
   .pages{
     width: 100%;
   }
@@ -152,7 +152,7 @@
     margin-left: -15px;
   }
 }
-@media only screen and (max-width: 567px){
+@media (max-width: 567px){
   .navbar-secondary {
     margin-top: 75px;
   }
@@ -178,7 +178,7 @@
     padding-left: 0;
   }
 }
-@media only screen and (max-width: 480px){
+@media (max-width: 480px){
   .navbar-brand{
     padding-left: 0;
   }
@@ -207,7 +207,7 @@
     width: 45%;
   }
 }
-@media only screen and (max-width: 400px){
+@media (max-width: 400px){
   .social_icons {
     margin-left: 0;
   }
@@ -219,7 +219,7 @@
   }
 }
 
-@media only screen and (max-width: 359px){
+@media (max-width: 359px){
   .navbar-brand{
     font-size: 19px;
     padding-bottom: 10px;
