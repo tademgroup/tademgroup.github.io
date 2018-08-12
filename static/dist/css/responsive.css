@@ -138,8 +138,12 @@
   .marque .offer{
     width: 75px
   }
-  .nav-justified>li{
+  .nav-justified>li a{
     border-bottom: 1px solid #337ab7;
+    margin-bottom: 0;
+  }
+  .nav-justified>li:last-child a{
+    border: none;
   }
 }
 @media (max-width: 700px){
