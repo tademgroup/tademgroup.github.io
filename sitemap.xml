@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://tademgroup.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tademgroup.com/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tademgroup.com/services.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tademgroup.com/industries.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tademgroup.com/contact.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tademgroup.com/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://tademgroup.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>
